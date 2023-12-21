@@ -9,16 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+//        Text("Hello, world!")
+//        Text("Hello, world!")   // 유효하지 않은 구조
+//        VStack {
+//            VStack {
+//                Text("Text1")
+//                Text("Text2")
+//                HStack{
+//                    Text("Text3")
+//                    Text("Text4")
+//                }
+//            }
+//            Text("Text5")
+//        }
+        
+//        Text("Hello, ") + Text("how ") + Text("are you?")
+        
+        
+        var myString = "Welcome to SwiftUI"
+        return VStack{
             Text("Hello, world!")
-                .font(.largeTitle)
-                .foregroundColor(.red)
-                .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+            Text("Goodbye, world!")
         }
-        .padding()
     }
 }
 
