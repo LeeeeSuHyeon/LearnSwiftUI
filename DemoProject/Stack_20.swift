@@ -64,21 +64,74 @@ import SwiftUI
 
 
 // 20.3 자식 뷰 제한
-struct Stack_20: View {
+//struct Stack_20: View {
+//    var body: some View {
+//        VStack(alignment: .center, spacing: 10){
+//            Group{
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//            }
+//            Group{
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//                Text("Sample Text")
+//            }
+//        }
+//    }
+//}
+
+
+// 20.4 텍스트 줄 제한, 레이아웃 우선순위
+//struct Stack_20: View {
+//    var body: some View {
+//        HStack{
+//            Image(systemName: "airplane")
+//            Text("Flight times : ")
+//            Text("London").layoutPriority(1)
+//        }
+//        .font(.system(size: 50))
+//        .lineLimit(1)
+//    }
+//}
+
+
+// 20.5 프레임
+//struct Stack_20: View {
+//    var body: some View {
+//        Text("Hello World!!!")
+//            .font(.largeTitle)
+//            .border(.black)
+////            .frame(minWidth: 100, maxWidth: 300, minHeight: 100, maxHeight: 100, alignment: .center)
+//            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
+//            // 안전 영역까지 frame을 확장하려면 edgesIgnoringSafeArea() 수정자 사용
+//            .edgesIgnoringSafeArea(.all)
+//    }
+//}
+
+// 20.6 frame, GeometryReader
+struct Stack_20 : View {
     var body: some View {
-        VStack(alignment: .center, spacing: 100){
-            Group{
-                Text("Sample Text")
-                Text("Sample Text")
-                Text("Sample Text")
-                Text("Sample Text")
-                Text("Sample Text")
-                Text("Sample Text")
+        GeometryReader { geometry in
+            VStack{
+                Text("Hello World, how are you?")
+                    .font(.largeTitle)
+                    .frame(width: geometry.size.width / 2,
+                           height: (geometry.size.height / 4) * 3)
+                Text("Goodbye World")
+                    .font(.largeTitle)
+                    .frame(width: geometry.size.width / 3,
+                           height: geometry.size.height / 4)
             }
         }
     }
 }
-
 
 
 #Preview {
