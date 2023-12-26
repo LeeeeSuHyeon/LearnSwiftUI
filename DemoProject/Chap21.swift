@@ -35,36 +35,77 @@
 //}
 
 
-import Foundation
-import Combine
+
 
 // Observable
-class DemoData : ObservableObject {
-    @Published var userCount = 0
-    @Published var currentUser = ""
-    
-    init(){
-        // 데이터 초기화 코드
-        updateData()
-    }
-    func updateData(){
-        // 데이터를 최신 상태로 유지하기 위한 코드
-    }
-}
+//import Foundation
+//import Combine
+//
+//
+//class DemoData : ObservableObject {
+//    @Published var userCount = 0
+//    @Published var currentUser = ""
+//    
+//    init(){
+//        // 데이터 초기화 코드
+//        updateData()
+//    }
+//    func updateData(){
+//        // 데이터를 최신 상태로 유지하기 위한 코드
+//    }
+//}
+//
+//
+//import SwiftUI
+//
+//struct Chap21: View {
+//    
+//    @ObservedObject var demoData : DemoData
+//    
+//    var body: some View {
+//        Text("\(demoData.currentUser), you are user number \(demoData.userCount)")
+//            
+//    }
+//}
 
 
-import SwiftUI
 
-struct Chap21: View {
-    
-    @ObservedObject var demoData : DemoData
-    
-    var body: some View {
-        Text("\(demoData.currentUser), you are user number \(demoData.userCount)")
-            
-    }
-}
-
-#Preview {
-    Chap21(demoData: DemoData())
-}
+// Environment 객체
+//import Foundation
+//import Combine
+//
+//
+//class DemoData : ObservableObject {
+//    @Published var userCount = 0
+//    @Published var currentUser = ""
+//
+//    init(){
+//        // 데이터 초기화 코드
+//        updateData()
+//    }
+//    func updateData(){
+//        // 데이터를 최신 상태로 유지하기 위한 코드
+//    }
+//}
+//
+//
+//import SwiftUI
+//
+//struct Chap21: View {
+//
+//    @ObservedObject var demoData : DemoData = DemoData()
+//    
+//    NavigationLink(destination: SecondView(DemoData)){
+//        Text("Next Screen")
+//    }
+//
+//    var body: some View {
+//        Text("\(demoData.currentUser), you are user number \(demoData.userCount)")
+//
+//    }
+//}
+//
+//
+//#Preview {
+//    Chap21().environment(DemoData())
+//}
