@@ -60,24 +60,61 @@ import SwiftUI
 //    }
 //}
 
+//// 24.2
+//struct Chap24: View {
+//    var body: some View {
+//        VStack(alignment: .leading){
+//            Rectangle()
+//                .foregroundColor(.green)
+//                .frame(width:120, height: 50)
+//            Rectangle()
+//                .foregroundColor(.red)
+//                .alignmentGuide(.leading, computeValue: { dimension in
+//                    dimension[HorizontalAlignment.trailing] + 20
+//                })
+//                .frame(width:200, height: 50)
+//            Rectangle()
+//                .foregroundColor(.blue)
+//                .frame(width:180, height: 50)
+//        }
+//    }
+//}
 
+
+// 24.4
 struct Chap24: View {
     var body: some View {
-        VStack(alignment: .leading){
+        HStack(alignment: .oneThird){
             Rectangle()
                 .foregroundColor(.green)
-                .frame(width:120, height: 50)
+                .frame(width: 50, height: 200)
             Rectangle()
                 .foregroundColor(.red)
-                .alignmentGuide(.leading, computeValue: { dimension in
-                    dimension[HorizontalAlignment.trailing] + 20
+                .alignmentGuide(.oneThird, computeValue: { dimension in
+                    dimension[VerticalAlignment.top]
                 })
-                .frame(width:200, height: 50)
+                .frame(width: 50, height: 200)
             Rectangle()
                 .foregroundColor(.blue)
-                .frame(width:180, height: 50)
+                .frame(width: 50, height: 200)
+            Rectangle()
+                .foregroundColor(.orange)
+                .alignmentGuide(.oneThird, computeValue: { dimension in
+                    dimension[VerticalAlignment.bottom]
+                })
+                .frame(width: 50, height: 200)
         }
     }
+}
+
+extension VerticalAlignment{
+    private enum OneThird : AlignmentID {
+        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+            return context.height / 3
+        }
+    }
+    
+    static let oneThird = VerticalAlignment(OneThird.self)
 }
 
 #Preview {
