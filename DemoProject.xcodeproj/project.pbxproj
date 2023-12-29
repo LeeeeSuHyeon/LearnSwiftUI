@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8E82B3E9DFA00F59C6E /* Chap24.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB02F8E82B3E9DFA00F59C6E /* Chap24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chap24.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB02F8E72B3E9B4A00F59C6E /* Chap24 */ = {
+			isa = PBXGroup;
+			children = (
+				CB02F8E82B3E9DFA00F59C6E /* Chap24.swift */,
+			);
+			path = Chap24;
+			sourceTree = "<group>";
+		};
 		CB0706372B32F4DC00A3E149 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		CB0706422B32F4DC00A3E149 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB02F8E72B3E9B4A00F59C6E /* Chap24 */,
 				CB7F2DB52B3D47BB00978B07 /* Chap23 */,
 				CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */,
 				CB0706452B32F4DC00A3E149 /* ContentView.swift */,
@@ -164,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB7F2DAE2B3545F300978B07 /* Stack_20.swift in Sources */,
+				CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */,
 				CB7F2DB72B3D47D400978B07 /* TimerData.swift in Sources */,
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
 				CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */,
