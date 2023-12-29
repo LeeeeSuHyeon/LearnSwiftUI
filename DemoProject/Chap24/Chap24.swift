@@ -81,41 +81,150 @@ import SwiftUI
 //}
 
 
-// 24.4
+//// 24.4
+//struct Chap24: View {
+//    var body: some View {
+//        HStack(alignment: .oneThird){
+//            Rectangle()
+//                .foregroundColor(.green)
+//                .frame(width: 50, height: 200)
+//            Rectangle()
+//                .foregroundColor(.red)
+//                .alignmentGuide(.oneThird, computeValue: { dimension in
+//                    dimension[VerticalAlignment.top]
+//                })
+//                .frame(width: 50, height: 200)
+//            Rectangle()
+//                .foregroundColor(.blue)
+//                .frame(width: 50, height: 200)
+//            Rectangle()
+//                .foregroundColor(.orange)
+//                .alignmentGuide(.oneThird, computeValue: { dimension in
+//                    dimension[VerticalAlignment.bottom]
+//                })
+//                .frame(width: 50, height: 200)
+//        }
+//    }
+//}
+//
+//extension VerticalAlignment{
+//    private enum OneThird : AlignmentID {
+//        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+//            return context.height / 3
+//        }
+//    }
+//    
+//    static let oneThird = VerticalAlignment(OneThird.self)
+//}
+
+
+//// 24.5
+//struct Chap24: View {
+//    var body: some View {
+//        HStack(alignment: .crossAlignment, spacing: 20){
+//            Circle()
+//                .foregroundColor(.purple)
+//                .alignmentGuide(.crossAlignment, computeValue: { dimension in
+//                    dimension[VerticalAlignment.center]
+//                })
+//                .frame(width: 100, height: 100)
+//            
+//            VStack{
+//                Rectangle()
+//                    .foregroundColor(.green)
+//                    .frame(width: 100, height: 100)
+//                Rectangle()
+//                    .foregroundColor(.red)
+//                    .frame(width: 100, height: 100)
+//                Rectangle()
+//                    .foregroundColor(.blue)
+//                    .alignmentGuide(.crossAlignment, computeValue: { dimension in
+//                        dimension[VerticalAlignment.center]
+//                    })
+//                    .frame(width: 100, height: 100)
+//                Rectangle()
+//                    .foregroundColor(.orange)
+//                    .frame(width: 100, height: 100)
+//            }
+//        }
+//    }
+//}
+//
+//// 뷰의 아래쪽을 기준으로 한 정렬 값을 반환하는 커스텀 정렬 구현
+//extension VerticalAlignment {
+//    private enum CrossAlignment : AlignmentID {
+//        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+//            return context[.bottom]
+//        }
+//    }
+//    static let crossAlignment = VerticalAlignment(CrossAlignment.self)
+//}
+
+
+
+
+// 24.6
 struct Chap24: View {
     var body: some View {
-        HStack(alignment: .oneThird){
+        ZStack(alignment: .myAlignment){
             Rectangle()
                 .foregroundColor(.green)
-                .frame(width: 50, height: 200)
-            Rectangle()
-                .foregroundColor(.red)
-                .alignmentGuide(.oneThird, computeValue: { dimension in
-                    dimension[VerticalAlignment.top]
+                .alignmentGuide(HorizontalAlignment.myAlignment, computeValue: { dimension in
+                    dimension[.leading]
                 })
-                .frame(width: 50, height: 200)
-            Rectangle()
-                .foregroundColor(.blue)
-                .frame(width: 50, height: 200)
-            Rectangle()
-                .foregroundColor(.orange)
-                .alignmentGuide(.oneThird, computeValue: { dimension in
+                .alignmentGuide(VerticalAlignment.myAlignment, computeValue: { dimension in
                     dimension[VerticalAlignment.bottom]
                 })
-                .frame(width: 50, height: 200)
+                .frame(width: 100, height: 100)
+            
+            Rectangle()
+                .foregroundColor(.red)
+                .alignmentGuide(VerticalAlignment.myAlignment, computeValue: { dimension in
+                    dimension[VerticalAlignment.center]
+                })
+                .alignmentGuide(HorizontalAlignment.myAlignment, computeValue: { dimension in
+                    dimension[HorizontalAlignment.trailing]
+                })
+                .frame(width: 100, height: 100)
+            
+            Circle()
+                .foregroundColor(.orange)
+                .alignmentGuide(HorizontalAlignment.myAlignment, computeValue: { dimension in
+                    dimension[.leading]
+                })
+                .alignmentGuide(VerticalAlignment.myAlignment, computeValue: { dimension in
+                    dimension[.top]
+                })
+                .frame(width: 100, height: 100)
         }
     }
 }
 
-extension VerticalAlignment{
-    private enum OneThird : AlignmentID {
+extension HorizontalAlignment {
+    enum MyHorizontal : AlignmentID {
         static func defaultValue(in context: ViewDimensions) -> CGFloat {
-            return context.height / 3
+            return context[HorizontalAlignment.center]
         }
     }
-    
-    static let oneThird = VerticalAlignment(OneThird.self)
+    static let myAlignment = HorizontalAlignment(MyHorizontal.self)
 }
+
+extension VerticalAlignment {
+    enum MyVertical : AlignmentID {
+        static func defaultValue(in context: ViewDimensions) -> CGFloat {
+            return context[VerticalAlignment.center]
+        }
+    }
+    static let myAlignment = VerticalAlignment(MyVertical.self)
+}
+
+
+extension Alignment {
+    static let myAlignment = Alignment(horizontal: .myAlignment, vertical: .myAlignment)
+}
+
+
+
 
 #Preview {
     Chap24()
