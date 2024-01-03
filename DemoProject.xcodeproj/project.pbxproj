@@ -10,6 +10,8 @@
 		CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8E82B3E9DFA00F59C6E /* Chap24.swift */; };
 		CB02F8EB2B3EAB3E00F59C6E /* AlignmentTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8EA2B3EAB3E00F59C6E /* AlignmentTool.swift */; };
 		CB02F8EE2B40198700F59C6E /* Chap25.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8ED2B40198700F59C6E /* Chap25.swift */; };
+		CB02F8F12B4548E600F59C6E /* ListNavDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */; };
+		CB02F8F32B45490A00F59C6E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8F22B45490A00F59C6E /* Car.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		CB02F8E82B3E9DFA00F59C6E /* Chap24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chap24.swift; sourceTree = "<group>"; };
 		CB02F8EA2B3EAB3E00F59C6E /* AlignmentTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentTool.swift; sourceTree = "<group>"; };
 		CB02F8ED2B40198700F59C6E /* Chap25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chap25.swift; sourceTree = "<group>"; };
+		CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemo.swift; sourceTree = "<group>"; };
+		CB02F8F22B45490A00F59C6E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,15 @@
 			name = Chap25;
 			sourceTree = "<group>";
 		};
+		CB02F8EF2B4548D600F59C6E /* Chap26 */ = {
+			isa = PBXGroup;
+			children = (
+				CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */,
+				CB02F8F22B45490A00F59C6E /* Car.swift */,
+			);
+			path = Chap26;
+			sourceTree = "<group>";
+		};
 		CB0706372B32F4DC00A3E149 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +99,7 @@
 		CB0706422B32F4DC00A3E149 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB02F8EF2B4548D600F59C6E /* Chap26 */,
 				CB02F8EC2B40197600F59C6E /* Chap25 */,
 				CB02F8E72B3E9B4A00F59C6E /* Chap24 */,
 				CB7F2DB52B3D47BB00978B07 /* Chap23 */,
@@ -192,12 +206,14 @@
 				CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */,
 				CB7F2DB72B3D47D400978B07 /* TimerData.swift in Sources */,
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
+				CB02F8F32B45490A00F59C6E /* Car.swift in Sources */,
 				CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */,
 				CB7F2DB22B3C1F3400978B07 /* Chap22.swift in Sources */,
 				CB7F2DB02B3AA44100978B07 /* Chap21.swift in Sources */,
 				CB7F2DB42B3D47A100978B07 /* Chap23.swift in Sources */,
 				CB02F8EE2B40198700F59C6E /* Chap25.swift in Sources */,
 				CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */,
+				CB02F8F12B4548E600F59C6E /* ListNavDemo.swift in Sources */,
 				CB02F8EB2B3EAB3E00F59C6E /* AlignmentTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
