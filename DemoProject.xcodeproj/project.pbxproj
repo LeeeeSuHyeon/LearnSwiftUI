@@ -12,6 +12,10 @@
 		CB02F8EE2B40198700F59C6E /* Chap25.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8ED2B40198700F59C6E /* Chap25.swift */; };
 		CB02F8F12B4548E600F59C6E /* ListNavDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */; };
 		CB02F8F32B45490A00F59C6E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8F22B45490A00F59C6E /* Car.swift */; };
+		CB02F8F82B46D16C00F59C6E /* CarAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB02F8F72B46D16C00F59C6E /* CarAssets.xcassets */; };
+		CB02F8FA2B46D19900F59C6E /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = CB02F8F92B46D19900F59C6E /* carData.json */; };
+		CB02F8FC2B46D2A200F59C6E /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FB2B46D2A200F59C6E /* CarData.swift */; };
+		CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FD2B46D5C700F59C6E /* CarStore.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -30,6 +34,10 @@
 		CB02F8ED2B40198700F59C6E /* Chap25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chap25.swift; sourceTree = "<group>"; };
 		CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemo.swift; sourceTree = "<group>"; };
 		CB02F8F22B45490A00F59C6E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CB02F8F72B46D16C00F59C6E /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = CarAssets.xcassets; path = ../CarAssets.xcassets; sourceTree = "<group>"; };
+		CB02F8F92B46D19900F59C6E /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carData.json; sourceTree = "<group>"; };
+		CB02F8FB2B46D2A200F59C6E /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		CB02F8FD2B46D5C700F59C6E /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +84,10 @@
 			children = (
 				CB02F8F02B4548E600F59C6E /* ListNavDemo.swift */,
 				CB02F8F22B45490A00F59C6E /* Car.swift */,
+				CB02F8F72B46D16C00F59C6E /* CarAssets.xcassets */,
+				CB02F8F92B46D19900F59C6E /* carData.json */,
+				CB02F8FB2B46D2A200F59C6E /* CarData.swift */,
+				CB02F8FD2B46D5C700F59C6E /* CarStore.swift */,
 			);
 			path = Chap26;
 			sourceTree = "<group>";
@@ -190,8 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB02F8FA2B46D19900F59C6E /* carData.json in Resources */,
 				CB07064B2B32F4DE00A3E149 /* Preview Assets.xcassets in Resources */,
 				CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */,
+				CB02F8F82B46D16C00F59C6E /* CarAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,12 +220,14 @@
 				CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */,
 				CB7F2DB72B3D47D400978B07 /* TimerData.swift in Sources */,
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
+				CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */,
 				CB02F8F32B45490A00F59C6E /* Car.swift in Sources */,
 				CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */,
 				CB7F2DB22B3C1F3400978B07 /* Chap22.swift in Sources */,
 				CB7F2DB02B3AA44100978B07 /* Chap21.swift in Sources */,
 				CB7F2DB42B3D47A100978B07 /* Chap23.swift in Sources */,
 				CB02F8EE2B40198700F59C6E /* Chap25.swift in Sources */,
+				CB02F8FC2B46D2A200F59C6E /* CarData.swift in Sources */,
 				CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */,
 				CB02F8F12B4548E600F59C6E /* ListNavDemo.swift in Sources */,
 				CB02F8EB2B3EAB3E00F59C6E /* AlignmentTool.swift in Sources */,
