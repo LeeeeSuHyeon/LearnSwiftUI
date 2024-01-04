@@ -13,7 +13,7 @@ struct Car : Codable, Identifiable {
     var name : String
     
     var description : String
-    var isHybrid : String
+    var isHybrid : Bool
     
     var imageName : String
 }

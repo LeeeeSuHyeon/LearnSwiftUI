@@ -183,21 +183,21 @@ struct Chap25: View {
                             }
                         }
                     }
-                    .onDelete(perform: deleteItem)
-                    .onMove(perform : moveItem)
+//                    .onDelete(perform: deleteItem)
+//                    .onMove(perform : moveItem)
                 }
             }
             .navigationTitle(Text("To Do List"))
             .navigationBarItems(trailing: EditButton())
         }
         
-        func deleteItem(at offsets: IndexSet){
-            // 데이터 소스에서 항목을 삭제하는 코드
-        }
-        
-        func moveItem(from source : IndexSet, to destination : Int){
-            // 항목을 재배열 하는 코드
-        }
+//        func deleteItem(at offsets: IndexSet){
+//            // 데이터 소스에서 항목을 삭제하는 코드
+//        }
+//        
+//        func moveItem(from source : IndexSet, to destination : Int){
+//            // 항목을 재배열 하는 코드
+//        }
     }
 }
 
