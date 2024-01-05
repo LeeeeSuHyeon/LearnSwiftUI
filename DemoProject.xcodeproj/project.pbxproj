@@ -17,6 +17,7 @@
 		CB02F8FC2B46D2A200F59C6E /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FB2B46D2A200F59C6E /* CarData.swift */; };
 		CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FD2B46D5C700F59C6E /* CarStore.swift */; };
 		CB02F9002B46E27500F59C6E /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FF2B46E27500F59C6E /* CarDetail.swift */; };
+		CB02F9022B47D3B700F59C6E /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F9012B47D3B600F59C6E /* AddNewCar.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		CB02F8FB2B46D2A200F59C6E /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
 		CB02F8FD2B46D5C700F59C6E /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		CB02F8FF2B46E27500F59C6E /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
+		CB02F9012B47D3B600F59C6E /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				CB02F8FB2B46D2A200F59C6E /* CarData.swift */,
 				CB02F8FD2B46D5C700F59C6E /* CarStore.swift */,
 				CB02F8FF2B46E27500F59C6E /* CarDetail.swift */,
+				CB02F9012B47D3B600F59C6E /* AddNewCar.swift */,
 			);
 			path = Chap26;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				CB7F2DAE2B3545F300978B07 /* Stack_20.swift in Sources */,
 				CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */,
 				CB7F2DB72B3D47D400978B07 /* TimerData.swift in Sources */,
+				CB02F9022B47D3B700F59C6E /* AddNewCar.swift in Sources */,
 				CB02F9002B46E27500F59C6E /* CarDetail.swift in Sources */,
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
 				CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */,
