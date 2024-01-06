@@ -18,6 +18,7 @@
 		CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FD2B46D5C700F59C6E /* CarStore.swift */; };
 		CB02F9002B46E27500F59C6E /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F8FF2B46E27500F59C6E /* CarDetail.swift */; };
 		CB02F9022B47D3B700F59C6E /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F9012B47D3B600F59C6E /* AddNewCar.swift */; };
+		CB02F9092B49318D00F59C6E /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F9082B49318D00F59C6E /* TabViewDemo.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		CB02F8FD2B46D5C700F59C6E /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 		CB02F8FF2B46E27500F59C6E /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
 		CB02F9012B47D3B600F59C6E /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
+		CB02F9082B49318D00F59C6E /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,46 @@
 			path = Chap26;
 			sourceTree = "<group>";
 		};
+		CB02F9032B492FEA00F59C6E /* Chap20 */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F2DAD2B3545F300978B07 /* Stack_20.swift */,
+			);
+			path = Chap20;
+			sourceTree = "<group>";
+		};
+		CB02F9042B492FF000F59C6E /* Chap21 */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F2DAF2B3AA44100978B07 /* Chap21.swift */,
+			);
+			path = Chap21;
+			sourceTree = "<group>";
+		};
+		CB02F9052B492FF700F59C6E /* Chap22 */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F2DB12B3C1F3400978B07 /* Chap22.swift */,
+			);
+			path = Chap22;
+			sourceTree = "<group>";
+		};
+		CB02F9062B49300D00F59C6E /* Chap19 */ = {
+			isa = PBXGroup;
+			children = (
+				CB0706452B32F4DC00A3E149 /* ContentView.swift */,
+			);
+			path = Chap19;
+			sourceTree = "<group>";
+		};
+		CB02F9072B49303000F59C6E /* Chap27 */ = {
+			isa = PBXGroup;
+			children = (
+				CB02F9082B49318D00F59C6E /* TabViewDemo.swift */,
+			);
+			path = Chap27;
+			sourceTree = "<group>";
+		};
 		CB0706372B32F4DC00A3E149 = {
 			isa = PBXGroup;
 			children = (
@@ -117,17 +159,18 @@
 		CB0706422B32F4DC00A3E149 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB02F9072B49303000F59C6E /* Chap27 */,
 				CB02F8EF2B4548D600F59C6E /* Chap26 */,
 				CB02F8EC2B40197600F59C6E /* Chap25 */,
 				CB02F8E72B3E9B4A00F59C6E /* Chap24 */,
 				CB7F2DB52B3D47BB00978B07 /* Chap23 */,
-				CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */,
-				CB0706452B32F4DC00A3E149 /* ContentView.swift */,
-				CB7F2DAD2B3545F300978B07 /* Stack_20.swift */,
-				CB0706472B32F4DE00A3E149 /* Assets.xcassets */,
+				CB02F9052B492FF700F59C6E /* Chap22 */,
+				CB02F9042B492FF000F59C6E /* Chap21 */,
+				CB02F9032B492FEA00F59C6E /* Chap20 */,
+				CB02F9062B49300D00F59C6E /* Chap19 */,
 				CB0706492B32F4DE00A3E149 /* Preview Content */,
-				CB7F2DAF2B3AA44100978B07 /* Chap21.swift */,
-				CB7F2DB12B3C1F3400978B07 /* Chap22.swift */,
+				CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */,
+				CB0706472B32F4DE00A3E149 /* Assets.xcassets */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
@@ -239,6 +282,7 @@
 				CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */,
 				CB02F8F12B4548E600F59C6E /* ListNavDemo.swift in Sources */,
 				CB02F8EB2B3EAB3E00F59C6E /* AlignmentTool.swift in Sources */,
+				CB02F9092B49318D00F59C6E /* TabViewDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
