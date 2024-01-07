@@ -20,6 +20,7 @@
 		CB02F9022B47D3B700F59C6E /* AddNewCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F9012B47D3B600F59C6E /* AddNewCar.swift */; };
 		CB02F9092B49318D00F59C6E /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F9082B49318D00F59C6E /* TabViewDemo.swift */; };
 		CB02F90C2B49397D00F59C6E /* ContextMenuDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F90B2B49397D00F59C6E /* ContextMenuDemo.swift */; };
+		CB02F90F2B4A726200F59C6E /* DrawDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB02F90E2B4A726200F59C6E /* DrawDemo.swift */; };
 		CB0706442B32F4DC00A3E149 /* DemoProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */; };
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		CB02F9012B47D3B600F59C6E /* AddNewCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCar.swift; sourceTree = "<group>"; };
 		CB02F9082B49318D00F59C6E /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
 		CB02F90B2B49397D00F59C6E /* ContextMenuDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuDemo.swift; sourceTree = "<group>"; };
+		CB02F90E2B4A726200F59C6E /* DrawDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDemo.swift; sourceTree = "<group>"; };
 		CB0706402B32F4DC00A3E149 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB0706432B32F4DC00A3E149 /* DemoProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectApp.swift; sourceTree = "<group>"; };
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -150,6 +152,14 @@
 			path = Chap28;
 			sourceTree = "<group>";
 		};
+		CB02F90D2B4A71F700F59C6E /* Chap29 */ = {
+			isa = PBXGroup;
+			children = (
+				CB02F90E2B4A726200F59C6E /* DrawDemo.swift */,
+			);
+			path = Chap29;
+			sourceTree = "<group>";
+		};
 		CB0706372B32F4DC00A3E149 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +179,7 @@
 		CB0706422B32F4DC00A3E149 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB02F90D2B4A71F700F59C6E /* Chap29 */,
 				CB02F90A2B49396A00F59C6E /* Chap28 */,
 				CB02F9072B49303000F59C6E /* Chap27 */,
 				CB02F8EF2B4548D600F59C6E /* Chap26 */,
@@ -284,6 +295,7 @@
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
 				CB02F8FE2B46D5C700F59C6E /* CarStore.swift in Sources */,
 				CB02F90C2B49397D00F59C6E /* ContextMenuDemo.swift in Sources */,
+				CB02F90F2B4A726200F59C6E /* DrawDemo.swift in Sources */,
 				CB02F8F32B45490A00F59C6E /* Car.swift in Sources */,
 				CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */,
 				CB7F2DB22B3C1F3400978B07 /* Chap22.swift in Sources */,
