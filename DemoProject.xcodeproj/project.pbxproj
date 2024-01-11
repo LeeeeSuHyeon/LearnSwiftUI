@@ -25,6 +25,7 @@
 		CB0706462B32F4DC00A3E149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0706452B32F4DC00A3E149 /* ContentView.swift */; };
 		CB0706482B32F4DE00A3E149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0706472B32F4DE00A3E149 /* Assets.xcassets */; };
 		CB07064B2B32F4DE00A3E149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB07064A2B32F4DE00A3E149 /* Preview Assets.xcassets */; };
+		CB46E12C2B4FA5990017D66B /* GestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB46E12B2B4FA5990017D66B /* GestureDemo.swift */; };
 		CB7125302B4BB88E002318FB /* AnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71252F2B4BB88E002318FB /* AnimationDemo.swift */; };
 		CB7F2DAE2B3545F300978B07 /* Stack_20.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7F2DAD2B3545F300978B07 /* Stack_20.swift */; };
 		CB7F2DB02B3AA44100978B07 /* Chap21.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7F2DAF2B3AA44100978B07 /* Chap21.swift */; };
@@ -54,6 +55,7 @@
 		CB0706452B32F4DC00A3E149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB0706472B32F4DE00A3E149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB07064A2B32F4DE00A3E149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB46E12B2B4FA5990017D66B /* GestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemo.swift; sourceTree = "<group>"; };
 		CB71252F2B4BB88E002318FB /* AnimationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDemo.swift; sourceTree = "<group>"; };
 		CB7F2DAD2B3545F300978B07 /* Stack_20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_20.swift; sourceTree = "<group>"; };
 		CB7F2DAF2B3AA44100978B07 /* Chap21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chap21.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		CB0706422B32F4DC00A3E149 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB46E12A2B4FA5840017D66B /* Chap31 */,
 				CB71252E2B4BB883002318FB /* Chap30 */,
 				CB02F90D2B4A71F700F59C6E /* Chap29 */,
 				CB02F90A2B49396A00F59C6E /* Chap28 */,
@@ -206,6 +209,14 @@
 				CB07064A2B32F4DE00A3E149 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB46E12A2B4FA5840017D66B /* Chap31 */ = {
+			isa = PBXGroup;
+			children = (
+				CB46E12B2B4FA5990017D66B /* GestureDemo.swift */,
+			);
+			path = Chap31;
 			sourceTree = "<group>";
 		};
 		CB71252E2B4BB883002318FB /* Chap30 */ = {
@@ -302,6 +313,7 @@
 				CB7F2DAE2B3545F300978B07 /* Stack_20.swift in Sources */,
 				CB02F8E92B3E9DFA00F59C6E /* Chap24.swift in Sources */,
 				CB7F2DB72B3D47D400978B07 /* TimerData.swift in Sources */,
+				CB46E12C2B4FA5990017D66B /* GestureDemo.swift in Sources */,
 				CB02F9022B47D3B700F59C6E /* AddNewCar.swift in Sources */,
 				CB02F9002B46E27500F59C6E /* CarDetail.swift in Sources */,
 				CB7F2DB92B3D4D5B00978B07 /* SecondView.swift in Sources */,
