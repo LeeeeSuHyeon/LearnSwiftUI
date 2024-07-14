@@ -21,20 +21,20 @@
 - Chapter 18. **기본 SwiftUI 프로젝트 분석**
 - Chapter 19. **SwiftUI로 커스텀 뷰 생성하기**
 - Chapter 20. **SwiftUI 스택과 프레임**
-- Chapter 21. **상태, Observable 객체, Environment 객체로 작업하기 **
+- Chapter 21. **상태, Observable 객체, Environment 객체로 작업하기**
 - Chapter 22. **SwiftUI 예제 튜토리얼**
-- Chapter 23. **Observable 객체, Environment 객체 튜토리얼 **
-- Chapter 24. **스택 정렬과 정렬 가이드 **
-- Chapter 25. **SwiftUI 리스트와 내비게이션 **
+- Chapter 23. **Observable 객체, Environment 객체 튜토리얼**
+- Chapter 24. **스택 정렬과 정렬 가이드**
+- Chapter 25. **SwiftUI 리스트와 내비게이션**
 - Chapter 26. **SwiftUI 리스트와 내비게이션 튜토리얼**
 - Chapter 27. **SwiftUI에서 탭 뷰 만들기**
 - Chapter 28. **SwiftUI에서 콘텍스트 메뉴 바인딩하기**
-- Chapter 29. **SwiftUI 그래픽 드로잉 기초 **
+- Chapter 29. **SwiftUI 그래픽 드로잉 기초**
 - Chapter 30. **SwiftUI 애니메이션과 전환**
-- Chapter 31. **SwiftUI에서 제스처 작업하기 **
-- Chapter 32. **SwiftUI와 SwiftUI 통합하기 **
-- Chapter 33. **UIViewController를 SwiftUI와 통합하기 **
-- Chapter 34. **SwiftUI와 UIKit 통합하기 **
-- Chapter 35. **앱 스토어에 애플리케이션 등록을 위한 준비와 제출하기 **
+- Chapter 31. **SwiftUI에서 제스처 작업하기**
+- Chapter 32. **SwiftUI와 SwiftUI 통합하기**
+- Chapter 33. **UIViewController를 SwiftUI와 통합하기**
+- Chapter 34. **SwiftUI와 UIKit 통합하기**
+- Chapter 35. **앱 스토어에 애플리케이션 등록을 위한 준비와 제출하기**
  
 
